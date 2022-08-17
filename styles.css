@@ -4,10 +4,13 @@ body{
     font-family: 'Figtree', sans-serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
+
+margin:0px;
+/* this will keep the content and website end to ed to the webpage */
 }
 
 :root{
-    --primary-color:#12EF84;
+    --primary-color:#dc2626;
     --off-white:#e2e8f0;
     --off-grey:#4b5563;
 }
@@ -73,6 +76,9 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
+.navigation .link{
+    color: white;
+}
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.5rem;
@@ -81,9 +87,7 @@ hr{
 .navigation .nav-pills{
     text-align: right;
 }
-.navigation .link{
-    color: white;
-}
+
 .navigation .link-active{
     font-weight: bold;
 }
@@ -103,7 +107,7 @@ hr{
 .hero .hero-header{
     text-align: center;
     font-size:2rem;
-    padding: 1.5rem ;
+    padding-top: 1.5rem ;
     color: var(--off-grey);
 }
 

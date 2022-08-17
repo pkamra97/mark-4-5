@@ -104,6 +104,13 @@ hr{
     display: block;
     margin:auto;
 }
+/* for books */
+.img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+/* till here  */
 .hero .hero-header{
     text-align: center;
     font-size:2rem;
@@ -150,3 +157,4 @@ hr{
 .footer .ul{
     padding-inline-start: 0px ;
 }
+
